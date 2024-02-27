@@ -1,0 +1,445 @@
+.header{
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+    background: url('click\ her.png') no-repeat center center/cover;
+    color: white;
+    background-attachment: fixed;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+#uploadForm{
+    
+    display: grid;
+    position: absolute;
+    grid-gap: 10px;
+    margin: 500px 650px;
+}
+
+/* #imageInput{
+    /* height: 40px;
+    width: 300px;
+    background: linear-gradient(to right, #ff6b6b, #3a1c71); Set the initial gradient color */
+/* } */ 
+
+#uploadbutton{
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+     /* Set the initial gradient color */
+    background: linear-gradient(to right,#29ffea, #3a1c71);
+
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    /* overflow: hidden;
+    transition: background 0.3s ease-in-out; */
+    
+}
+
+#uploadbutton:hover{
+    background: linear-gradient(to right,white,white);
+    color: black;
+    
+}
+#downloadbutton{
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    /* background: linear-gradient(to right,#29ffea, #3a1c71); */
+    background: linear-gradient(to right,#29ffea, #3a1c71);
+    
+
+    border: none;
+    padding: 5px 20px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    color:white;
+}
+
+#downloadbutton:hover{
+    
+    background: linear-gradient(to right,white, white);
+    color: black;
+}
+
+#imageInput{
+
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+
+}
+
+#uploadstatus{
+    position: absolute;
+    margin: 20px 320px;
+    white-space: nowrap;
+    font-size: 30px;
+}
+
+#uploadstatus h2{
+    font-size: 30px;
+}
+
+.iit-logo{
+    /* display: inline-block; */
+    position: absolute;
+    /* border: 4px solid red; */
+    /* background-color: #e440de; */
+    background: url('iit.png') ;
+    background-size: cover;
+    width: 80px; 
+    height: 80px;
+    margin: 20px 1200px;
+
+}
+
+.ggv-logo{
+    display: inline-block;
+    position: absolute;
+    /* border: 4px solid red; */
+    /* background-color: black; */
+
+    background: url('ggv.png') ;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    margin: 20px 1300px;
+}
+
+.ministry-logo{
+    display: inline-block;
+    position: absolute;
+    /* border: 4px solid red; */
+    /* background-color: #e440de; */
+    background: url('ministry.png') no-repeat ;
+    /* background-size: cover; */
+    width: 300px; 
+    height: 150px;
+    margin: 10px 10px;
+}
+
+.hacakathon{
+    display: inline-block;
+    position: absolute;
+    /* border: 4px solid red; */
+    /* background-color: black; */
+
+    background: url('hacakathon.png') ;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    margin: 20px 1400px;
+}
+
+.card{
+    display: inline-block;
+    position: absolute;
+    height: 320px;
+    width: 200px;
+    margin: 350px 20px;
+}
+
+.card-title{
+    color: rgb(68, 10, 242);
+    white-space: nowrap;
+    text-align: center;
+}
+
+.card-text{
+    font-size: 12px;
+}
+
+.card1{
+    display: inline-block;
+    position: absolute;
+    height: 320px;
+    width: 200px;
+    margin: 350px 1300px;
+}
+
+.analytics{
+    height: 200vh;
+    width: 100%;
+    background-color: blue;
+    /* background: url('page2new.png') no-repeat center center/cover; */
+    background: url('background.jpg') no-repeat center center/cover;
+
+
+    color: white;
+    background-attachment: fixed;
+}
+
+
+.softwaretitle{
+    height: 100vh;
+    width: 100%;
+    /* background-color: aqua;
+
+     */
+    background: url('491362538070.jpg') no-repeat center center/cover;
+
+    color: white;
+    background-attachment: fixed;
+}
+
+.softwareheading{
+    display: inline-block;
+    position: absolute;
+    margin: 150px 450px;
+    white-space: nowrap;
+}
+.softwareheading h1{
+    font-size: 60px;
+    /* text-align: center; */
+
+}
+
+.softwarecontent{
+    display: inline-block;
+    position: absolute;
+    margin: 250px 150px;
+    white-space: nowrap;
+
+}
+
+.softwarepara{
+    display: inline-block;
+    position: absolute;
+    margin: 350px 150px;
+    white-space: nowrap;
+}
+.softwarepara p{
+    font-size: 18px;
+}
+
+.analyticsvideo{
+    height: 100vh;
+    width: 100%;
+    background: url('flow.jpg') no-repeat center/cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.productanalytics{
+    height: 200vh;
+    width: 100%;
+    background: url('flow.jpg') no-repeat center/cover;
+    /* background: url('67235.jpg') no-repeat center/cover; */
+
+    background-attachment: fixed;
+    color: white;
+}
+
+.flowdiagram{
+    height: 100vh;
+    width: 100%;
+    background: url('flow.jpg') no-repeat center/cover;
+    color: white;
+    background-attachment: fixed;
+
+}
+
+.title{
+    display: inline-block;
+    position: absolute;
+    margin: 110px 770px;
+}
+
+.titlenew{
+    display: inline-block;
+    position: absolute;
+    margin: 500px 430px;
+    
+}
+
+.titlenew h1{
+    font-size: 70px;
+}
+
+.titlenewrest{
+    display: inline-block;
+    position: absolute;
+    margin: 600px 580px;
+}
+
+.titlenewrest h1{
+    font-size: 45px;
+}
+
+.title h1{
+    /* font-family: 'Bungee Spice', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Protest Strike', sans-serif; */
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 75px;
+    /* -webkit-text-stroke: 1px #fff; */
+    color: white;
+    /* background-image: linear-gradient(#fff , #fff); */
+    background-repeat: no-repeat;
+    /* -webkit-background-clip: text; */
+    background-position: -750px 0;
+    /* animation: backcolor 5s linear infinite alternate; */
+}
+
+
+.about{
+    position: absolute;
+    margin: 20px 2px;
+}
+
+
+
+
+/* Second Page */
+
+#heading{
+    font-size: 60px;
+    text-align: center;
+}
+
+.graphs{
+    display: grid;
+    width: 90%;
+    height: 80vh;
+    /* border: 1px solid red; */
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    grid-gap: 5px;
+    margin:20px 60px ;
+}
+.graphs2{
+    display: grid;
+    width: 90%;
+    height: 80vh;
+    /* border: 1px solid red; */
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    grid-gap: 5px;
+    margin:40px 80px ;
+    padding: 10px;
+}
+
+.graph1{
+    /* border: 1px solid black; */
+    /* background: url(pie_chart3.png);
+    background-size: cover ; */
+}
+
+.graph2{
+    /* border:1px solid pink; */
+    /* background: url(line_chart1.png);
+    background-size: cover ; */
+
+}
+
+.graph3{
+    /* border: 1px solid black; */
+
+}
+.graph4{
+    /* border:1px solid pink; */
+
+}
+.img1{
+    position: absolute;
+    width: 35%;
+    height: auto;
+    margin: 10px 50px;
+}
+.img2{
+    position: absolute;
+    width:45%;
+    height: auto;
+    margin: 60px -10px;
+}
+
+.img3{
+    position: absolute;
+    width: 45%;
+    height: auto;
+    margin: 40px -20px;
+}
+.img4{
+    position: absolute;
+    width:45%;
+    height: auto;
+    margin: 60px 10px;
+}
+
+.img5{
+    position: absolute;
+    width: 45%;
+    height: auto;
+    margin: 30px 10px;
+}
+
+.img6{
+    position: absolute;
+    width: 45%;
+    height: auto;
+    margin: 30px 50px;
+}
+
+.img7{
+    position: absolute;
+    width: 45%;
+    height: auto;
+    /* margin: 40px -20px; */
+    margin: 30px -30px;
+
+
+}
+.img8{
+    position: absolute;
+    width:45%;
+    height: auto;
+    /* margin: 60px 10px; */
+    margin: 30px 40px;
+
+
+}
+video {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    margin: 100px 350px;
+  }
+
+  .img9{
+
+    position: absolute;
+    width:55%;
+    height: auto;
+    /* margin: 60px 10px; */
+    margin: 30px 350px;
+
+  }
+  
+.video{
+    /* background: url(line_chart1.png) no-repeat center center/cover; */
+    background-color: aqua;
+    background-attachment: fixed;
+}
+
+/* .graph3{
+    border: 1px solid brown;
+}
+
+.graph4{
+    border: 1px solid white;
+} */
